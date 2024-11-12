@@ -60,10 +60,6 @@ class ColorConstant {
     return Color(int.parse(buffer.toString(), radix: 16));
   }
 
-  ///created by manisha
-  static const darkBlueColor = Color(0xFF071733);
-
-// !------------------------------------------New ColorS-------------------------------
   static const Color primary50 = Color(0xFFF9EBED);
   static const Color primary75 = Color(0xFFe7acb6);
   static const Color primary100 = Color(0xFFdd8a98);
@@ -123,13 +119,12 @@ class ColorConstant {
   static const Color neutral700 = Color(0xFF243757);
   static const Color neutral800 = Color(0xFF15294b);
   static const Color neutral900 = Color(0xFF091e42);
-// !By Praveen Sir
+
   static const Color searchFieldOutline = Color(0xFFC7C3C3);
   static const Color lightGreen200 = Color(0xFFDCE5E6);
   static const Color appColor = Color(0xFFC7C3C3);
   static const Color bgNew = Color(0xFFF8F8F8);
 
-  // ! Zakir Sir
   static Color transparentlab = Color(0xFFA4A4A499);
   static Color neu8 = Color(0xFF17B7B7B);
   //D4D4D4
@@ -141,7 +136,6 @@ class ColorConstant {
 
   static const Color healthCardColor = Color.fromARGB(255, 211, 36, 68);
 
-  //Shivani
   static const Color redDashboardDisCardColor = Color(0xFFFF6464);
   static const Color homePageDividerBorderColor = Color(0xFF8D8D8D);
   static const Color ambulanceBookingColor = Color(0xFF7F7F7F);
