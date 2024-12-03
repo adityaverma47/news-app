@@ -25,6 +25,7 @@ class BottomNavigationBarScreen extends StatelessWidget {
                     HomePage(),
                   ],
                 ),
+
                 bottomNavigationBar: BottomNavigationBar(
                   unselectedItemColor: ColorConstant.textTwo,
                   selectedItemColor: ColorConstant.secodaryP300,
