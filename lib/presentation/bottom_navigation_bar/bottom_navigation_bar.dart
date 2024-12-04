@@ -21,7 +21,6 @@ class BottomNavigationBarScreen extends StatelessWidget {
                   index: controller.argumentData ?? controller.tabIndex,
                   children: const [
                     HomePage(),
-
                     HomePage(),
                   ],
                 ),
