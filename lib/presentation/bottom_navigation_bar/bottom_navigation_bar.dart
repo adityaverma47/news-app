@@ -15,8 +15,7 @@ class BottomNavigationBarScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetBuilder<BottomNavigationBarController>(
       builder: (controller) {
-        return
-              Scaffold(
+        return Scaffold(
                 body: IndexedStack(
                   index: controller.argumentData ?? controller.tabIndex,
                   children: const [
